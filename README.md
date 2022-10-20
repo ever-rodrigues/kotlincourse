@@ -1,6 +1,9 @@
 # kotlincourse
 All files from Kotlin Course
 
+Just some anottation about this subject!
+
+
 ->Kotlin 
 	-> fun -> 	function (method)
 	Obs:At end of the func you need to specify the Type of return of this function, as exemplo " :String "
@@ -84,5 +87,50 @@ All files from Kotlin Course
 		
 		
 		
+	->Classes
+		-> Class
+		
+		ex:
+		Class Contact (val id: Int, var email:String)
+		
+		fun main(){
+		val contact = Contatct(1,"tombt@hotmail.com")
+		println(contact.id)
+		contact.email="teste@gmail.com"
+		
+		
+		
+		
+		}
+		
 
+ 	->Generics
+ 		Its normaly used in Collections (Lists)  -> The same of Java you can use any letter to describe a diamond operator that you 
+ 		are using Generics
+ 		
+ 		->Ex:
+ 		package com.course
+
+		class ExampleGenerics<T> (vararg items:T){
+		    private val elements = items.toMutableList()
+
+		    fun push(element: T) = elements.add(element)
+    		    fun peek():T = elements.last()
+		    fun pop():T = elements.removeAt(elements.size-1)
+
+
+		    //Metodo de override que imprime os itens da lista usando o ToString()
+		    override fun toString(): String {
+	            return "Muttable Stack(${elements.joinToString()})"
+    		}
+
+}
+
+fun main(){
+    val stack = ExampleGenerics("Teste","Teste1")
+    stack.push("NewElement")
+    println(stack)
+}
+ 		
+ 		
  		
