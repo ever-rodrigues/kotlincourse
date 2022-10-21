@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b6b9aa9-9241-4066-8207-7c6711f5ebb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/ExampleGenerics.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/ControlFlowStructures.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/LoopUse.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinCourse-Demo/META-INF/KotlinCourse-Demo.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCourse-Demo/META-INF/KotlinCourse-Demo.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinCourse-Demo/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCourse-Demo/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/course/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,9 +52,23 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.ExampleGenericsKt">
+  <component name="RunManager" selected="Kotlin.LoopUseKt">
+    <configuration name="ControlFlowStructuresKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.course.ControlFlowStructuresKt" />
+      <module name="KotlinCourse-Demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExampleGenericsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.course.ExampleGenericsKt" />
+      <module name="KotlinCourse-Demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoopUseKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.course.LoopUseKt" />
       <module name="KotlinCourse-Demo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,6 +83,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LoopUseKt" />
+        <item itemvalue="Kotlin.ControlFlowStructuresKt" />
         <item itemvalue="Kotlin.ExampleGenericsKt" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
@@ -85,7 +100,10 @@
       <updated>1666284782230</updated>
       <workItem from="1666284783753" duration="469000" />
       <workItem from="1666285903085" duration="936000" />
-      <workItem from="1666288235574" duration="8009000" />
+      <workItem from="1666288235574" duration="12725000" />
+      <workItem from="1666368322069" duration="865000" />
+      <workItem from="1666370951869" duration="493000" />
+      <workItem from="1666379610174" duration="346000" />
     </task>
     <servers />
   </component>

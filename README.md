@@ -134,3 +134,58 @@ fun main(){
  		
  		
  		
+ 	->Controle de Fluxo
+ 		->When ( Similar to switch case in others languages)
+ 		Ex:
+ 		//When is similar with switch-case but more flexible than switch-case
+ 	
+		fun cases (obj:Any){
+		    when(obj){
+        		1-> println("One")
+        		is Long-> println("Long")
+        		!is  String -> println("Not a String")
+        		else -> println("Unknown")
+    }
+}
+		
+		
+		Use of When at "expressions"
+		
+		eX:
+		fun whenAssign(obj:Any):Any{
+		    val result= when(obj){
+        		1->"One"
+        		is Long -> false
+        		else ->42
+    			}
+    			return result
+		}	
+		
+		 		
+ 		->Loops
+ 		
+ 		fun main() {
+		    val cakes= listOf("carrot","cheese","cholocalte")
+		    for(cake in cakes){
+		        println(cake)
+		    }
+		}
+ 		
+ 		
+ 		
+ 		->Ranges
+ 		
+ 		->Verificacoes de Igualdade
+ 		
+ 		->Expressoes Condicionais
+ 		
+ 	->Collections
+ 	
+ 		->List
+ 		
+ 		->Maps
+ 		
+ 		
+ 		
+ 		
+ 		
