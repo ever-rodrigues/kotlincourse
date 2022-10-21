@@ -163,7 +163,7 @@ fun main(){
 		
 		 		
  		->Loops
- 		
+ 			->FOR
  		fun main() {
 		    val cakes= listOf("carrot","cheese","cholocalte")
 		    for(cake in cakes){
@@ -171,7 +171,41 @@ fun main(){
 		    }
 		}
  		
+ 			->WHILE / DO WHILE
+ 			
+ 			    var cakeBaked =0
+			    var cakeEaten=0 
+				while(cakeEaten<5){
+				    eatCake()
+				    cakeEaten++
+				}
+    				do{
+			        cakeBaked++
+				    }while (cakeEaten>cakeBaked)
+				}
+
  		
+ 			->Iterators
+ 			
+ 			class Animal (val name:String){
+			}	
+			class Zoo(val animals: List<Animal>){
+			    operator fun iterator():Iterator<Animal>{
+        			return animals.iterator()
+    				}
+			}
+
+
+			fun main(){
+			    val animals = listOf(Animal("Zebra"),Animal("Lion"))
+			    val zoo= Zoo(animals)
+			    for(animal in zoo){
+			        println("Watch out , its a ${animal.name}")
+			    }
+			}
+
+
+
  		
  		->Ranges
  		
