@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b6b9aa9-9241-4066-8207-7c6711f5ebb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/ControlFlowStructures.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/LoopUse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/Animal.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/KotlinCourse-Demo/META-INF/KotlinCourse-Demo.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCourse-Demo/META-INF/KotlinCourse-Demo.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCourse-Demo/com/course/LoopUseKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCourse-Demo/com/course/LoopUseKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/course/ControlFlowStructures.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/ControlFlowStructures.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/course/LoopUse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/LoopUse.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +55,13 @@
   }
 }</component>
   <component name="RunManager" selected="Kotlin.LoopUseKt">
+    <configuration name="AnimalKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.course.AnimalKt" />
+      <module name="KotlinCourse-Demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ControlFlowStructuresKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.course.ControlFlowStructuresKt" />
       <module name="KotlinCourse-Demo" />
@@ -84,6 +93,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.LoopUseKt" />
+        <item itemvalue="Kotlin.AnimalKt" />
         <item itemvalue="Kotlin.ControlFlowStructuresKt" />
         <item itemvalue="Kotlin.ExampleGenericsKt" />
         <item itemvalue="Kotlin.MainKt" />
@@ -103,7 +113,8 @@
       <workItem from="1666288235574" duration="12725000" />
       <workItem from="1666368322069" duration="865000" />
       <workItem from="1666370951869" duration="493000" />
-      <workItem from="1666379610174" duration="346000" />
+      <workItem from="1666379610174" duration="1845000" />
+      <workItem from="1666390217436" duration="419000" />
     </task>
     <servers />
   </component>
