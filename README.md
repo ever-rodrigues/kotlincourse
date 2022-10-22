@@ -207,17 +207,131 @@ fun main(){
 
 
  		
- 		->Ranges
+ 		->Ranges ( until , step, downTo ...)
+ 		 			
+		fun main(){
+		    for(i in 0..3){
+		        println("counting $i")
+		    }
+
+
+   		 for(i in 0 until 3){
+    		    println("Until $i")
+    		}
+		    for(i in 2..8 step 2){
+        		println("Step of 2 $i")
+    		}
+
+		    for(i in 3 downTo 0){
+		        println("Decrementing $i")
+		    }
+		}
+		
+		
+		
+    		//Ranges with Char
+    		//c -> character
+
+    		for(c in 'a'..'d'){
+      	  println("Range $c")
+    		}
+
+   		val x=2
+    		if(x in 1..10){
+	      	  println("${x} is in range from 1 to 5")
+    		}
+
+    		if(x !in 5..10){
+       		println("${x} is not in range from 5 to 10")
+    		}
+	
+
+
+ ->Verificacoes de Igualdade
+ 
+ 		fun main(){
+    		val authors = setOf("Eu", "voce","ele")
+    		val writers = setOf("Eu", "voce","ele")
+
+   		 //Structure comparing
+    		println(authors==writers)
+
+   		 //Relacional comparing
+    		println(authors===writers)
+		}
+ 
+ 
  		
- 		->Verificacoes de Igualdade
+ 		->Expressoes Condicionais (If Ternario)
  		
- 		->Expressoes Condicionais
+ 		fun main() {
+		    fun max(a:Int , b:Int)= if(a>b) a else b
+			    println(max(99,-42))
+
+		    fun maxOld(a:Int , b:Int):Int{
+		        if(a>b){
+		            return a
+		        }else{
+		        return b
+		        }
+		    }
+		    println(maxOld(100,-45))
+
+			}
  		
  	->Collections
  	
  		->List
+ 			->MutableList
+ 				->CRUD of List
+ 			->ImutableList
+ 				->Only READ of elements from a list
  		
+ 				fun main() {
+   					val systemUsers:MutableList<Int> = mutableListOf(1,3,5)
+    					val sudoers:List<Int> = systemUsers
+
+   				 fun addSystemUser(newUser:Int){
+       					 systemUsers.add(newUser)
+    				}
+
+    				fun getSysSudores():List<Int>{
+        				return sudoers
+    				}
+
+        			addSystemUser(4)
+       				println("Tot sudoers : ${getSysSudores().size}")
+        			getSysSudores().forEach {
+            			i-> println("Some useful info on user $i")
+       				 }
+        			//getSysSudoers().add(5)<-Error!
+	}
+ 	
  		->Maps
+ 		
+ 		
+ 		->Funcoes Uteis
+ 		
+ 		
+ 		val numbers = listOf(1,-2,3,-4,5,-6)
+ 		
+ 		val positives = numbers.filter{x->x>0}
+ 		val negatives = numbers.filter{it<0}
+ 		
+ 		println("Numbers : $numbers")
+ 		println("Positive Numbers : $positives")
+ 		println("Negatives : $negatives")
+ 		
+ 		
+ 		//Uso para multiplicar todos os elementos por 2
+ 		val doubled = numbers.map{x->x*2}
+ 		
+ 		
+ 		
+ 		
+ 			->Map ( Junta as duas estruturas respeitando a lista (intacta) 
+ 			->Flat Map ( Faz um merge dos dados numa mesma estrutura de dados (UNIFICA TUDO))
+ 			
  		
  		
  		
