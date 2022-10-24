@@ -10,6 +10,7 @@ fun main() {
     cases(1)
     cases(10L)
     cases(ControlFlowStructures())
+    testTernario(4)
 }
 
 //When is similar with switch-case but more flexible than switch-case
@@ -36,6 +37,22 @@ fun whenAssign(obj:Any):Any{
     return result
 }
 
+
+
+
+//ternario em Kotlin
+fun testTernario(valora: Int) {
+    val result =if (valora >=7) "aprovado" else if(valora >=5 && valora <7) "recuperacao" else "reprovado"
+    println("Resultado e : $result")
+}
+
+/*..
+//Se fosse em Java
+public void usandoTernarion(int valorA ){
+    String resultado = valorA<=12 ? "verdade" : "falso";
+    System.out.println("Valor e de "+ resultado);
+}
+ * */
 
 
 
