@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b6b9aa9-9241-4066-8207-7c6711f5ebb5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/TesteTernarioJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/BigBen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/DataClassKotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/Dog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/EnumClassNoKotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/SealedClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/UsginObject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/poo/heritage.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinCourse-Demo/com/course/ControlFlowStructuresKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCourse-Demo/com/course/ControlFlowStructuresKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/course/ControlFlowStructures.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/ControlFlowStructures.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCourse-Demo/META-INF/KotlinCourse-Demo.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCourse-Demo/META-INF/KotlinCourse-Demo.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinCourse-Demo/com/course/TesteTernarioJava.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinCourse-Demo/com/course/TesteTernarioJava.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/course/TesteTernarioJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/course/TesteTernarioJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -52,43 +60,37 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.ControlFlowStructuresKt">
-    <configuration name="TesteTernarioJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.course.TesteTernarioJava" />
-      <module name="KotlinCourse-Demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.course.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ControlFlowStructuresKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.course.ControlFlowStructuresKt" />
+  <component name="RunManager" selected="Kotlin.BigBenKt">
+    <configuration name="BigBenKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.course.BigBenKt" />
       <module name="KotlinCourse-Demo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.course.ListsKt" />
+    <configuration name="DataClassKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.course.DataClassKotlinKt" />
       <module name="KotlinCourse-Demo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RangesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.course.RangesKt" />
+    <configuration name="EnumClassNoKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.course.EnumClassNoKotlinKt" />
       <module name="KotlinCourse-Demo" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseingSETKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.course.UseingSETKt" />
+    <configuration name="SealedClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.course.SealedClassKt" />
+      <module name="KotlinCourse-Demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsginObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.course.UsginObjectKt" />
       <module name="KotlinCourse-Demo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ControlFlowStructuresKt" />
-        <item itemvalue="Application.TesteTernarioJava" />
-        <item itemvalue="Kotlin.RangesKt" />
-        <item itemvalue="Kotlin.UseingSETKt" />
-        <item itemvalue="Kotlin.ListsKt" />
+        <item itemvalue="Kotlin.BigBenKt" />
+        <item itemvalue="Kotlin.UsginObjectKt" />
+        <item itemvalue="Kotlin.SealedClassKt" />
+        <item itemvalue="Kotlin.EnumClassNoKotlinKt" />
+        <item itemvalue="Kotlin.DataClassKotlinKt" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +125,7 @@
       <workItem from="1666396856277" duration="2231000" />
       <workItem from="1666400681123" duration="432000" />
       <workItem from="1666402162899" duration="729000" />
-      <workItem from="1666613314929" duration="4102000" />
+      <workItem from="1666613314929" duration="30712000" />
     </task>
     <servers />
   </component>
