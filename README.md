@@ -333,7 +333,144 @@ fun main(){
  			->Flat Map ( Faz um merge dos dados numa mesma estrutura de dados (UNIFICA TUDO))
  			
  		
+ POO -> PROGRAMACAO ORIENTADA OBJETO -> PILARES
+ 		
+ ->Abstracao -> 
+ 		->Abstracoes de entidades existentes no dominio / problema em questao.
+ 		->Foco em aspectos essenciais do dominio
  		
  		
+ ->Encapsulamento 
+ 			-> Esconder implementacoes dos objetos .
+ 			-> Encapsulamento favorece aspectos como MANUTENCAO e EVOLUCAO
+ 			
+ 			
+ ->Heranca 	
+ 		-> Classes compartilhem caracteristicas e comportamentos
+		->Usada com a intencao de promover o reuso de codigo atraves de estruturas mais genericas e flexiveis.
+		
+		//Para usar heranca devemos usar o open
+	//Para usar heranca devemos usar o open
+	open class Dog {
+    	open fun sayHello(){
+        	println("Say hello !")
+    	}
+	}
+
+
+	class Yorkshire:Dog(){
+    	override fun sayHello() {
+        	println("Agora usando heranca")
+    	}
+	}
+
+
+	fun main() {
+    		val myDog :Dog=Yorkshire()
+    		myDog.sayHello()
+	}	
+		
+		
+		->Abaixo uso da heranca com CONSTRUTOR PARAMETRIZADO
+		->Ou seja sua classe pai nao pode ser sobrescrita o metodo porque nao temos o uso open( Ou seja um metodo aberto , que pode ser sobrescrito)
+		open class Tiger (val origin :String){
+		    fun sayHello(){
+		        println("A tiger from $origin")
+    		    }
+		}
+
+
+		class MyTiger:Tiger("Brazil")
+		
+		
+		fun main() {
+		    val myTiger:Tiger=MyTiger()
+		    myTiger.sayHello()
+		}
+		
+		
+		
+		
+		->Heranca Passando Argumentos do Construtor para a Superclasse 
+		open class Lion(val name:String, val origin:String){
+		    fun sayHello(){
+		        println("$name says hello from $origin")
+		    }
+		}
+
+		class Asiatic(name:String) :Lion(name=name, origin = "India")
+
+		
+ ->Polimorfismo
  		
+ 		-> Objeto ser referenciado de varias formas
+ 		->Solucoes mais genericas
+ 		->Tratar objetos a partir de classes especificas como objetos de uma classe generica
+		
+
+		 			
+
+Data Class ->
+		fun main() {
+			val user = User("Everton",1)
+			println(user)
+		}
+
+		data class User(val name:String, val id:Int){
+			override fun equals(other:Any?)=
+		        other is User && other.id==this.id
+		}
+
+
+
+ENUM -> 
+
+	enum class EnumClassNoKotlin {
+	    IDLE,RUNNING,FINISHED
+	}
+
+	fun main(){
+	    val state = EnumClassNoKotlin.RUNNING
+	    val message= when(state){
+	        EnumClassNoKotlin.IDLE->"Its idle"
+	        EnumClassNoKotlin.RUNNING->"Its running"
+	        EnumClassNoKotlin.FINISHED->"Its finished"
+    		}
+	    println(message)
+	}
+ 
+ 
+ 		
+ 		
+ CLASSES SELADAS ->
+ (SEALED CLASSES)
+ 			->Garante que a classe nao sera extensivel fora do pacote em que foi definida
+ 			->Cria uma certa restricao em termo de visiabiliade e extensao
+ 			
+ 			
+ 			
+ 
+ //Using Object KeyWord
+ 		->Singleton (Instancia unica )
+ 		
+ 		->fun rentPrice(standartDays:Int, specialDays:Int):Unit{
+    			val dayRates=object{
+        		var standart:Int = 30*standartDays
+       			val special:Int=45*specialDays
+   		}
+
+   			val total = dayRates.standart+ dayRates.special
+    			println(total)
+		}
+
+		fun main() {
+		    rentPrice(10,2)
+		}
+
+
+	->Companion Object ( muito parecido com um metodo classe estatica do Java)
+	
+	
+ 		
+ 			
  		
